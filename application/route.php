@@ -12,7 +12,7 @@ use think\Route;
 
 Route::rule(':version/user/:id','api/:version.User/read');
 
-return [
+/*return [
     '__pattern__' => [
         'name' => '\w+',
     ],
@@ -21,4 +21,4 @@ return [
         ':name' => ['index/hello', ['method' => 'post']],
     ],
 
-];
+];*/

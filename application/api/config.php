@@ -7,5 +7,6 @@
  * Time: 14:43
  */
 return [
+    //'app_debug' => true,
     'default_return_type'=>'json'
 ];
