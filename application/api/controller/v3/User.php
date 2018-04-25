@@ -12,7 +12,8 @@ namespace app\api\controller\v3;
 
 class User
 {
-    public function read() {
+    public function read()
+    {
         return ['version' => 'v3'];
     }
 
